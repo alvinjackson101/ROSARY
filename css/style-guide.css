@@ -245,7 +245,6 @@ xForm
 -------------------------------- */
 input[type=text], select {
   border: 1px solid #e6e6e6;
-  border-radius: .25em;
   background: #ffffff;
 }
 input[type=text]:focus, select:focus {
@@ -317,11 +316,11 @@ input[type=checkbox] {
 }
 
 .radio-label::before {
-  border-radius: 50%;
+ 
 }
 
 .checkbox-label::before {
-  border-radius: 3px;
+
 }
 
 input[type=radio]:checked + label::before,
@@ -825,40 +824,40 @@ section:nth-of-type(6) h2::before {
   padding: .6em 0;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch {
-  background: #5f8ee4;
+  background: #513528;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::before {
-  background: #759de8;
+  background: #70594F;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::after {
-  background: #497fe0;
+  background: #60473B;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch {
-  background: #19191a;
+  background: #736151;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch::before {
-  background: #262627;
+  background: #8C7D70;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch::after {
-  background: #0d0d0d;
+  background: #7f6f60;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch {
-  background: #e4655f;
+  background: #EFB140;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch::before {
-  background: #e87a75;
+  background: #F1BF62;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch::after {
-  background: #e05049;
+  background: #F0B851;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch {
-  background: #e6e6e6;
+  background: #EAE8E4;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch::before {
-  background: #f3f3f3;
+  background: #F1F0ED;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch::after {
-  background: #d9d9d9;
+  background: #EBEAE6;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch {
   background: #ffffff;
