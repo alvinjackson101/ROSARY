@@ -161,11 +161,12 @@ p {
   font-size: 1.4rem;
   line-height: 1.4;
   color: #716c6a;
-  font-family: "Lato", 'lato';
+  font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 p a {
   color: #8a012d;
   text-decoration: underline;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 @media only screen and (min-width: 768px) {
   p {
@@ -182,40 +183,40 @@ xButtons
 .btn {
   border: none;
   box-shadow: none;
-  border-radius: .25em;
+  /*border-radius: .20em;*/
   font-size: 1.4rem;
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
   padding: .6em 2.2em;
   cursor: pointer;
-  background: #5f8ee4;
+  background: #EFB140;
 }
 .btn:focus {
   outline: none;
 }
 .no-touch .btn:hover {
-  background: #759de8;
+  background: #F1BF62;
 }
 .btn.btn-success {
-  background: #6fce72;
+  background: #513528;
 }
 .no-touch .btn.btn-success:hover {
-  background: #82d485;
+  background: #736151;
 }
-.btn.btn-alert {
+/*.btn.btn-alert {
   background: #e4655f;
 }
 .no-touch .btn.btn-alert:hover {
   background: #e87a75;
-}
+}*/
 .btn.btn-outline {
-  color: #5f8ee4;
+  color: #513528;
   background: transparent;
-  box-shadow: inset 0 0 0 1px #5f8ee4;
+  box-shadow: inset 0 0 0 1px #513528;
 }
 .no-touch .btn.btn-outline:hover {
   color: #ffffff;
-  background: #5f8ee4;
+  background: #513528;
 }
 @media only screen and (min-width: 768px) {
   .btn {
@@ -256,10 +257,10 @@ input[type=text] {
   padding: .6em 1em;
   box-shadow: inset 1px 1px rgba(0, 0, 0, 0.03);
 }
-input[type=text].success {
+/*input[type=text].success {
   border-color: #6fce72;
   box-shadow: 0 0 6px rgba(111, 206, 114, 0.2);
-}
+}*/
 input[type=text].alert {
   border-color: #e4655f;
   box-shadow: 0 0 6px rgba(228, 101, 95, 0.2);
@@ -901,7 +902,7 @@ section:nth-of-type(6) h2::before {
 /* xTypography section - basic style */
 .cd-typography h1::before {
   content: 'Aa - ';
-  color: #5f8ee4;
+  color: #8a012d;
 }
 
 .cd-buttons .cd-box:first-of-type {
