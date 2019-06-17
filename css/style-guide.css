@@ -132,11 +132,15 @@ h1 {
 @media only screen and (min-width: 768px) {
   h1 {
     font-size: 3.2rem;
+    font-family: "Cinzel", 'Courier New', Courier, monospace;
+  color: #908172;
   }
 }
 @media only screen and (min-width: 1024px) {
   h1 {
     font-size: 4rem;
+    font-family: "Cinzel", 'Courier New', Courier, monospace;
+  color: #908172;
   }
 }
 
